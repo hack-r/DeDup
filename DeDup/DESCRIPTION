@@ -1,0 +1,9 @@
+Package: DeDup
+Title: Cleans up objects with duplicate columns ending in .x and .y
+Version: 0.1
+Authors@R: "Jason Miller <jmillerlaureate@gmail.com> [aut, cre]"
+Description: This function helps clean up your post-merge objects in cases where a merge or SQL join has resulted in many duplicated columns with names ending in '.x' and '.y'.
+Depends:
+    R (>= 3.1.1)
+License: GPL v2
+LazyData: true
