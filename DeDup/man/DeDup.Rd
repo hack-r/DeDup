@@ -4,7 +4,27 @@
 \alias{DeDup}
 \alias{DeDup-package}
 \title{DeDup.}
+\usage{
+DeDup(x)
+}
+\arguments{
+\item{x}{an R data frame or object coercible into a data frame}
+
+\item{y}{an R data frame or object coercible into a data frame which you wish
+to merge with x}
+}
 \description{
 DeDup.
+
+This function helps clean up your post-merge objects in cases where a merge
+ or SQL join has resulted in many duplicated columns with names ending in '.x'
+ and '.y'.
 }
+\examples{
+df.clean <- DeDup(df.messy)
+}
+\keyword{dedup}
+\keyword{duplicate}
+\keyword{join}
+\keyword{merge}
 
